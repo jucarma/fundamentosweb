@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabla simple</h1>
+        <table border="1"> <!--Esto de border no se usa, se aplica en css, aqui es solo para ver el ejemplo mas claro-->
+            <tr>
+                <th>encabezado 1</th>
+                <th>encabezado 2</th>
+                <th>encabezado 3</th>
+            </tr>
+            <tr>
+                <td colspan="2">dato11</td>
+                <!--<td>dato12</td>-->
+                <td>dato13</td>                
+            </tr>
+            <tr>
+                <td>dato21</td>
+                <td>dato22</td>
+                <td>dato23</td>
+            </tr>
+            <tr>
+                <td rowspan="2">dato31</td>
+                <td>dato32</td>
+                <td>dato33</td>
+            </tr>
+            <tr>
+                <!--<td>dato41</td>-->
+                <td>dato42</td>
+                <td>dato43</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1"> 
+            <tr>
+                <th>encabezado 1</th>
+                <th>encabezado 2</th>
+                <th>encabezado 3</th>
+            </tr>
+            <tr>
+                <td>dato11</td>
+                <td>dato12</td>
+                <td>dato13</td>                
+            </tr>
+            <tr>
+                <td>dato21</td>
+                <td colspan="2" rowspan="2">dato22</td>
+            </tr>
+            <tr>
+                <td>dato31</td>
+            </tr>
+            <tr>
+                <td>dato41</td>
+                <td>dato42</td>
+                <td>dato43</td>
+            </tr>
+        </table>
+        <br><br><br>
+
+        <h2>Otro tipo de tabla</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>en1</th>
+                    <th>en2</th>
+                    <th>en3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dato11</td>
+                    <td>dato12</td>
+                    <td>dato13</td>
+                </tr>
+                <tr>
+                    <td>dato21</td>
+                    <td>dato22</td>
+                    <td>dato23</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>total1</td>
+                    <td>total2</td>
+                    <td>total3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    
+</body>
+</html>
