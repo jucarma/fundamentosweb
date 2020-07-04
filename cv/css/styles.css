@@ -1,3 +1,7 @@
+* {
+    font-style: italic;
+}
+
 body {
     background-color: black; color: white;
 }
@@ -12,4 +16,16 @@ a {
 
 img, video {
     max-width: 100%;
+}
+
+.social-link {
+    color: aqua;
+}
+
+#contacto {
+    background-color: orange;
+}
+
+[target="_blank"] {
+    text-decoration: none;
 }
