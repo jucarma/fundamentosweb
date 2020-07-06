@@ -1,5 +1,5 @@
 * {
-    font-style: italic;
+    font-family: 'Nanum Myeongjo', 'Times New Roman', Times, serif;
 }
 
 body {
@@ -8,6 +8,9 @@ body {
 
 h1 {
     color: yellow;
+}
+h1, h2 {
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
 }
 
 a {
